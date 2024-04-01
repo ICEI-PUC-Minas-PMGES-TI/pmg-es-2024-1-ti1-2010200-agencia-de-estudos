@@ -1,4 +1,4 @@
-# Nome do projeto
+Agenda de estudos 
 
 Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 
