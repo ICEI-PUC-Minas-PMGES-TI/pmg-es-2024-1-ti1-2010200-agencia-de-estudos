@@ -27,7 +27,7 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Existem muitos alunos e estudantes, tanto universitários quanto do ensino médio que mostram uma grande dificuldade em sua vida academica. Sem uma organização adequada, os estudantes podem enfrentar problemas como falta de tempo para revisar o material, dificuldade em priorizar tarefas, procrastinação e estresse excessivo devido a prazos apertados. Além disso, uma má organização pode levar à falta de compreensão dos conceitos, resultando em notas mais baixas e menor aprendizado. Ter uma estrutura clara para estudar permite que os alunos sejam mais produtivos, focados e confiantes em seu desempenho acadêmico.
 
 Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
@@ -47,7 +47,7 @@ Aqui você deve descrever os objetivos do trabalho indicando que o objetivo gera
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Existem muitos alunos e estudantes, tanto universitários quanto do ensino médio que mostram uma grande dificuldade ao conseguir conciliar suas rotinas de estudo com sua vida pessoal. Nosso propósito, é conseguir ajudar esses estudantes a organizar suas rotinas de estudo e alcançar seus objetivos acadêmicos.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
