@@ -27,7 +27,7 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 
 ## Problema
 
-Existem muitos alunos e estudantes, tanto universitários quanto do ensino médio que mostram uma grande dificuldade em sua vida academica. Sem uma organização adequada, os estudantes podem enfrentar problemas como falta de tempo para revisar o material, dificuldade em priorizar tarefas, procrastinação e estresse excessivo devido a prazos apertados. Além disso, uma má organização pode levar à falta de compreensão dos conceitos, resultando em notas mais baixas e menor aprendizado. Ter uma estrutura clara para estudar permite que os alunos sejam mais produtivos, focados e confiantes em seu desempenho acadêmico.
+Existem muitos alunos e estudantes, tanto universitários quanto do ensino médio que mostram uma grande dificuldade em sua vida academica. Sem uma organização adequada, os estudantes podem enfrentar problemas como falta de tempo para revisar o material, dificuldade em priorizar tarefas, procrastinação e estresse excessivo devido a prazos apertados. Além disso, uma má organização pode levar à falta de compreensão dos conceitos, resultando em notas mais baixas e menor aprendizado.
 
 Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
@@ -39,7 +39,7 @@ Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Think
 
 ## Objetivos
 
-A proposta do grupo é criar um site que tenha um ambiente mais confortavel e que facilite a organizacao e o aprendizado de nossos usuarios, fazendo com que os mesmos consigam atingir os seus objetivos academicos. P
+A proposta do grupo é criar um site que tenha um ambiente mais confortavel e que facilite a organizacao e o aprendizado de nossos usuarios, fazendo com que os mesmos consigam atingir os seus objetivos academicos. 
 
 **Links Úteis**:
 
@@ -47,7 +47,7 @@ A proposta do grupo é criar um site que tenha um ambiente mais confortavel e qu
 
 ## Justificativa
 
-Existem muitos alunos e estudantes, tanto universitários quanto do ensino médio que mostram uma grande dificuldade ao conseguir conciliar suas rotinas de estudo com sua vida pessoal. Nosso propósito, é conseguir ajudar esses estudantes a organizar suas rotinas de estudo e alcançar seus objetivos acadêmicos.
+Sabendo que os estudos sao o pilar da nossa sociedade, nosso projeto procura facilitar a vida de quem procura esse sucesso academico. E  Ter uma rotina de estudos prática e organizada é crucial porque ajuda a maximizar a eficiência e o rendimento acadêmico. Sem tais metodos, o usuario pode aprender de forma errada e isso afetar seu futuro profissional, ou ate mesmo desistir de seus objetivos.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
