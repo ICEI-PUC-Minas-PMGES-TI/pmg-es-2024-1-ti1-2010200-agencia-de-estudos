@@ -39,7 +39,8 @@ Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Think
 
 ## Objetivos
 
-A proposta do grupo é criar um site que tenha um ambiente mais confortavel e que facilite a organizacao e o aprendizado de nossos usuarios, fazendo com que os mesmos consigam atingir os seus objetivos academicos. 
+Nosso projeto tem como finalidade criar uma plataforma simples e eficaz para que você possa organizar seus estudos da sua própria maneira. Com nossas funcionalidades intuitivas, você pode criar sua agenda de estudos personalizada, adaptada às suas necessidades e preferências. Além disso, oferecemos o uso de flashcards para facilitar a memorização do conteúdo.
+O objetivo principal do nosso projeto é ajudar nossos usuários a gerenciar suas tarefas diárias enquanto reservam um tempo para um estudo produtivo. Queremos proporcionar uma experiência que permita conciliar obrigações diárias com a busca por conhecimento de forma eficiente
 
 **Links Úteis**:
 
