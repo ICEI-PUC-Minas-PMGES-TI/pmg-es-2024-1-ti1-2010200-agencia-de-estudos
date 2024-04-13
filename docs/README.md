@@ -78,7 +78,11 @@ Relacione as personas identificadas no seu projeto e os respectivos mapas de emp
 
 ## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+Como estudante universitário, minha agenda está sempre cheia de compromissos. Entre aulas, projetos e atividades extracurriculares, é um desafio constante equilibrar meu tempo e me manter organizado
+
+Como estudante do ensino médio, sinto uma enorme pressão para absorver uma grande quantidade de conteúdo. Lidar com essa carga acadêmica pode ser desafiador, e muitas vezes me vejo lutando para manter o ritmo e memorizar tudo o que aprendo na escola. Uma plataforma que me permitisse organizar meus estudos de forma eficaz e facilitasse a memorização seria incrivelmente útil.
+
+Como estudante universitário e trabalhador de meio período para pagar minha faculdade, meu tempo é extremamente limitado e valioso. A luta para equilibrar minhas responsabilidades acadêmicas e profissionais muitas vezes resulta em dificuldade para estudar de forma eficaz, e eu acabo esquecendo parte do conteúdo. Um sistema que me permitisse organizar meu escasso tempo e estudar de maneira mais otimizada seria de grande ajuda.
 
 **Links Úteis**:
 
