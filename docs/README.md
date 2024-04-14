@@ -123,7 +123,7 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma característ
 
 ## Wireframes
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/85800e1b-4849-4f50-bb80-ec65b4612a63)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/3250370a-4a29-45ea-8bad-ac33c7d45425)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/052f991b-1a1e-467b-a4ca-11994173d1c4)
 
 
 
