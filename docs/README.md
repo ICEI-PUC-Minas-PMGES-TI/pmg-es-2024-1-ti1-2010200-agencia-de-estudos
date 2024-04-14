@@ -27,7 +27,7 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 
 ## Problema
 
-Existem muitos alunos e estudantes, tanto universitários quanto do ensino médio que mostram uma grande dificuldade em sua vida academica. Sem uma organização adequada, os estudantes podem enfrentar problemas como falta de tempo para revisar o material, dificuldade em priorizar tarefas, procrastinação e estresse excessivo devido a prazos apertados. Além disso, uma má organização pode levar à falta de compreensão dos conceitos, resultando em notas mais baixas e menor aprendizado.
+Existem muitos estudantes, tanto universitários quanto do ensino médio que mostram uma grande dificuldade em sua vida academica. Sem uma organização adequada, os estudantes podem enfrentar problemas como falta de tempo para revisar o material, dificuldade em priorizar tarefas, procrastinação e estresse excessivo devido a prazos apertados. Além disso, uma má organização pode levar à falta de compreensão dos conceitos, resultando em notas mais baixas e menor aprendizado.
 
 Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
@@ -94,11 +94,10 @@ Como estudante universitário e trabalhador de meio período para pagar minha fa
 Os requisitos de um projeto são classificados em dois grupos:
 
 - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-RF1: Cadastro do usuário
-RF2: Agenda  
-RF3: Cronograma 
-RF4: Matérias   
-RF5: Flashcards
+RF1: Cadastro do usuário  
+RF2: Cronograma 
+RF3: Matérias   
+RF4: Flashcards
 - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
 RNF 1: Ser desenvolvido através do HTML, CSS e JAVA SCRIPT
 RNF 2: Suportar telas de computadores e celulares
