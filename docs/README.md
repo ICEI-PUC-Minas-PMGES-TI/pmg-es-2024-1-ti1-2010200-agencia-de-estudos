@@ -125,7 +125,8 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma característ
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/052f991b-1a1e-467b-a4ca-11994173d1c4)
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/b5482e21-d959-419d-bc9d-84767f003290)
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/399656f7-8b05-4e7d-a736-c41342096ea4)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/2b6af4ce-e84f-4391-8030-89c9e40f1fcc)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/dfe76781-645f-4a1e-b38f-cde08b5dd6af)
+
 
 
 
