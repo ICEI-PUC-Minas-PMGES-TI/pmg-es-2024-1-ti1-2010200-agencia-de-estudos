@@ -112,7 +112,8 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma característ
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/fd830bd1-3a0f-4197-b86a-c8a623a78c25)
+
 
 **Links Úteis**:
 
@@ -121,8 +122,11 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 - [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 ## Wireframes
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/85800e1b-4849-4f50-bb80-ec65b4612a63)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/3250370a-4a29-45ea-8bad-ac33c7d45425)
 
-Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
+
+
 
 **Links Úteis**:
 
@@ -133,9 +137,7 @@ Wireframes são protótipos das telas da aplicação usados em design de interfa
 
 ## Gestão de Projetos
 
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
-
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+O projeto iniciou-se com uma ideia inicial, apenas como um conceito a ser desenvolvido. Durante o brainstorming, diferentes ideias foram exploradas, moldando e refinando o conceito inicial do projeto. Em seguida, ocorreu a fase de organização, com a divisão de tarefas e a seleção das ideias a serem implementadas, consolidando assim o conceito final do projeto. A primeira build foi então desenvolvida, visando coletar dados valiosos para a eventual construção final. Posteriormente, testes abertos foram conduzidos utilizando essa build inicial, permitindo ajustes com base nos dados dos usuários. Finalmente, a Release Build marcou o lançamento da primeira versão completa e pronta para uso final do projeto.
 
 **Links Úteis**:
 
