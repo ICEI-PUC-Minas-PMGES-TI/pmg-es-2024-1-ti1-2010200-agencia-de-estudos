@@ -67,7 +67,7 @@ Encontrar o público-alvo de nosso software é bem simples, buscamos atender est
 
 ## Personas
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
+A persona, representada por José ou Maria, com idades entre 15 e 28 anos, é uma pessoa ambiciosa, dedicada ao desenvolvimento pessoal e à busca por uma carreira de sucesso. Seus hobbies incluem tanto o desenvolvimento pessoal quanto participar de festas. Eles buscam evolução acadêmica e financeira, frequentemente envolvidos em estágios universitários. Possuem uma personalidade ambiciosa, desejando sentir-se importante e validado, e são ávidos por autodesenvolvimento. Seus principais objetos são o celular, utilizado tanto para lazer quanto estudos, e desktops, dedicados principalmente aos estudos. Eles estão constantemente conectados à moda digital e tendências genéricas. O serviço do aplicativo deve ser apresentado como uma necessidade para o sucesso acadêmico e profissional da persona. Tratá-los de forma a fazê-los sentir-se importantes e parte de um movimento estudantil é crucial, sem deixá-los socialmente isolados ou tornar a plataforma financeiramente inacessível.
 
 **Links Úteis**:
 
@@ -94,9 +94,14 @@ Como estudante universitário e trabalhador de meio período para pagar minha fa
 Os requisitos de um projeto são classificados em dois grupos:
 
 - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
+RF1: Cadastro do usuário
+RF2: Agenda  
+RF3: Cronograma 
+RF4: Matérias   
+RF5: Flashcards
 - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
+RNF 1: Ser desenvolvido através do HTML, CSS e JAVA SCRIPT
+RNF 2: Suportar telas de computadores e celulares
 
 Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
