@@ -63,6 +63,13 @@ Como estudante do ensino médio, sinto uma enorme pressão para absorver uma gra
 Como estudante universitário e trabalhador de meio período para pagar minha faculdade, meu tempo é extremamente limitado e valioso. A luta para equilibrar minhas responsabilidades acadêmicas e profissionais muitas vezes resulta em dificuldade para estudar de forma eficaz, e eu acabo esquecendo parte do conteúdo. Um sistema que me permitisse organizar meu escasso tempo e estudar de maneira mais otimizada seria de grande ajuda.
 
 
+## Artefatos de Design Thinking
+
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/d31718e1-fae7-410b-ab2e-0b1dd6fc4a23)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/3135e8c7-105b-4bee-a05e-e5054c95a68f)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/777e03e0-2ad0-4137-a133-1c31a069e075)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/f6d18deb-c65e-4310-a31d-29ce753393c3)
+
 
 ## Requisitos
 
