@@ -1,4 +1,7 @@
-# Documentação do Projeto (TIDocs)
+# Documentação do Projeto - Study Buddy
+## Nomes
+Alunos: Luiz Gustavo Silva Oliveira, Kaiky Keven de Oliveira Castro, Thiago Costa Soares e Victor Maia Sverberi
+Professores: Michelle Hanne Soares de Andrade e João Paulo Carneiro Aramuni
 
 Esta pasta armazena a documentação do projeto para a disciplina de **Trabalho Interdisciplinar 1** dos cursos de Tecnologia da Informação da **[PUC Minas](https://pucminas.br)**. Essa documentação é estruturada na forma de um site que fica disponível por meio do GitHub Pages e pode ser incluído, também, no site da solução hospedada. Um [exemplo publicado do TIDocs](https://webtech-puc-minas.github.io/ti1-template/) está disponível por meio do repositório do **[WebTech PUC Minas](https://github.com/webtech-pucminas)**.
 
@@ -10,16 +13,6 @@ De acordo com os professores:
 - Metodologia (Organização da equipe e divisão de papéis, Quadro de controle de tarefas - Kanban) 
 - Referências Bibliográficas
 
-De acordo com a documentação do git:
-1. Introdução
-2. Contexto
-3. Concepção
-4. Metodologia
-5. Solução
-6. FAQ (Questões frequentes)
-7. Referências Bibliográficas
-
-O template para o site é estruturado e permite que a equipe evolua a documentação do projeto à medida que avance no desenvolvimento.
 
 # Orientações gerais
 
