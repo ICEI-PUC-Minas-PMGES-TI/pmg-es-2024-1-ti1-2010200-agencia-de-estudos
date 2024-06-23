@@ -100,9 +100,8 @@ RNF 2: Suportar telas de computadores
 
 
 
+## Metodologia
 
-## Gestão de Projetos
-
-O projeto iniciou-se com uma ideia inicial, apenas como um conceito a ser desenvolvido. Durante o brainstorming, diferentes ideias foram exploradas, moldando e refinando o conceito inicial do projeto. Em seguida, ocorreu a fase de organização, com a divisão de tarefas e a seleção das ideias a serem implementadas, consolidando assim o conceito final do projeto. A primeira build foi então desenvolvida, visando coletar dados valiosos para a eventual construção final. Posteriormente, testes abertos foram conduzidos utilizando essa build inicial, permitindo ajustes com base nos dados dos usuários. Finalmente, a Release Build marcou o lançamento da primeira versão completa e pronta para uso final do projeto.
+O projeto iniciou-se com uma ideia inicial, apenas como um conceito a ser desenvolvido. Durante o brainstorming, diferentes ideias foram exploradas, moldando e refinando o conceito inicial do projeto. Em seguida, ocorreu a fase de organização, com a divisão de tarefas e a seleção das ideias a serem implementadas, consolidando assim o conceito final do projeto. A primeira sprint foi então desenvolvida, visando coletar dados valiosos para a eventual construção final. Posteriormente, testes abertos foram conduzidos utilizando essa sprint inicial, permitindo ajustes com base nos dados dos usuários. Finalmente, a sprint final marcou o lançamento da primeira versão completa e pronta para uso final do projeto.
 
 
