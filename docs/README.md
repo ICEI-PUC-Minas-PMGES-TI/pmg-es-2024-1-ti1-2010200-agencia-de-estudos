@@ -95,7 +95,6 @@ RNF 2: Suportar telas de computadores
 
 
 
-
 ## Wireframes
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/85800e1b-4849-4f50-bb80-ec65b4612a63)
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/052f991b-1a1e-467b-a4ca-11994173d1c4)
@@ -106,9 +105,10 @@ RNF 2: Suportar telas de computadores
 
 
 
-
 ## Metodologia
 
 O projeto iniciou-se com uma ideia inicial, apenas como um conceito a ser desenvolvido. Durante o brainstorming, diferentes ideias foram exploradas, moldando e refinando o conceito inicial do projeto. Em seguida, ocorreu a fase de organização, com a divisão de tarefas e a seleção das ideias a serem implementadas, consolidando assim o conceito final do projeto. A primeira sprint foi então desenvolvida, visando coletar dados valiosos para a eventual construção final. Posteriormente, testes abertos foram conduzidos utilizando essa sprint inicial, permitindo ajustes com base nos dados dos usuários. Finalmente, a sprint final marcou o lançamento da primeira versão completa e pronta para uso final do projeto.
 
 
+
+## 
