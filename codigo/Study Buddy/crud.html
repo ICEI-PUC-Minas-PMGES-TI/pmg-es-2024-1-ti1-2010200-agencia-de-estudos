@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crud.css">
+    <script src="crud.js" defer></script>
+    <title>Gerenciar Cadastros</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Study Buddy</h1>
+            <img src="logo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+
+    <div class="crud-container">
+        <h1>Gerenciar Cadastros</h1>
+        <table id="cadastrosTable">
+            <thead>
+                <tr>
+                    <th>Primeiro Nome</th>
+                    <th>Sobrenome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Gênero</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cadastros serão carregados aqui -->
+            </tbody>
+        </table>
+        <button class="edit-button" onclick="goToCadastro()">Voltar ao Cadastro</button>
+    </div>
+
+    <!-- Popup de edição -->
+    <div id="edit-popup" class="edit-popup" style="display: none;">
+        <div class="edit-popup-content">
+            <h2>Editar Cadastro</h2>
+            <form id="edit-form">
+                <input type="hidden" id="edit-index">
+                <div class="form-group">
+                    <label for="edit-firstname">Primeiro Nome:</label>
+                    <input type="text" id="edit-firstname" name="firstname" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-lastname">Sobrenome:</label>
+                    <input type="text" id="edit-lastname" name="lastname" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-email">E-mail:</label>
+                    <input type="email" id="edit-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-number">Celular:</label>
+                    <input type="text" id="edit-number" name="number" required>
+                </div>
+                <div class="form-group">
+                    <label for="edit-gender">Gênero:</label>
+                    <select id="edit-gender" name="gender" required>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </div>
+                <button type="submit">Salvar</button>
+                <button type="button" id="edit-cancel">Cancelar</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function goToCadastro() {
+            window.location.href = 'cadastro.html';
+        }
+    </script>
+</body>
+</html>

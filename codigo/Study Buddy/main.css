@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%; /* Garante que a altura total seja preenchida */
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Altura total da viewport */
+}
+
+.sidebar {
+    width: 250px; /* Ajustado para acomodar ícones */
+    background-color: #a875ff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 100%; /* Garante que o item ocupe todo o espaço horizontal */
+}
+
+.menu-item i {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.menu-item:hover, .menu-item.active {
+    background-color: #9658d6;
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: #f3f2f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    width: 80%;
+    height: 80%;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logo {
+        display: none; /* Opcional: remover logo em telas pequenas */
+    }
+
+    .menu-item {
+        justify-content: center;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .main-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .content-box {
+        width: 100%;
+        height: auto;
+        max-height: 300px; /* Ajustar conforme necessário */
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-item {
+        padding: 8px 0; /* Reduzir padding para telas muito pequenas */
+    }
+
+    .menu-item i {
+        font-size: 12px; /* Ajustar tamanho dos ícones */
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastro.js" defer></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Study Buddy</h1>
+            <img src="Logo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+
+    <div class="form-container">
+        <a href="login.html" class="back-to-login"><span class="arrow-left"></span> Voltar para Login</a>
+        <h1>Cadastro</h1>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="firstname">Primeiro Nome:</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="form-group">
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Celular:</label>
+                <input type="text" id="number" name="number" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirmar Senha:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gênero:</label>
+                <select id="gender" name="gender" required>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+            <button type="submit">Cadastrar</button>
+            <button type="button" onclick="goToCRUD()">Gerenciar Cadastros</button>
+        </form>
+    </div>
+    <script>
+        function goToCRUD() {
+            window.location.href = 'crud.html';
+        }
+    </script>
+</body>
+</html>

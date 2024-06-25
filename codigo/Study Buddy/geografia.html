@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geografia</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    background-color: #6F08BB; 
+    color: white; 
+    text-align: center; 
+    padding: 2px 0; 
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 800px;
+  }
+
+  .card {
+    background-color: #f2f2f2; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .edit-btn, .delete-btn {
+    position: absolute;
+    top: 5px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .edit-btn {
+    right: 35px;
+  }
+
+  .delete-btn {
+    right: 5px;
+  }
+
+  #newCardInput {
+    margin: 20px 0;
+  }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Study Buddy</h1>
+</div>
+<div class="container" id="cardContainer">
+  
+</div>
+<input type="text" id="newCardInput" placeholder="Escreva aqui..." />
+<button onclick="addCard()">Adicionar Card</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    loadCards();
+  });
+
+  function loadCards() {
+    const cardContainer = document.getElementById('cardContainer');
+    cardContainer.innerHTML = ''; 
+
+    const cards = JSON.parse(localStorage.getItem('geografiaCards')) || [];
+    cards.forEach((card, index) => {
+      addCardToDOM(card, index);
+    });
+  }
+
+  function addCardToDOM(cardText, index) {
+    const cardContainer = document.getElementById('cardContainer');
+    const newCard = document.createElement('div');
+    newCard.className = 'card';
+    newCard.innerHTML = `<h2 contenteditable="true">${cardText}</h2>
+                         <button class="edit-btn" onclick="editCard(event, ${index})">✎</button>
+                         <button class="delete-btn" onclick="deleteCard(event, ${index})">✖</button>`;
+    newCard.onclick = () => openNotes(index);
+    cardContainer.appendChild(newCard);
+  }
+
+  function addCard() {
+    const newCardText = document.getElementById('newCardInput').value;
+    if (newCardText.trim() !== "") {
+      const cards = JSON.parse(localStorage.getItem('geografiaCards')) || [];
+      cards.push(newCardText);
+      localStorage.setItem('geografiaCards', JSON.stringify(cards));
+      addCardToDOM(newCardText, cards.length - 1);
+      document.getElementById('newCardInput').value = '';
+    }
+  }
+
+  function editCard(event, index) {
+    event.stopPropagation();
+    const cardContainer = document.getElementById('cardContainer');
+    const cards = JSON.parse(localStorage.getItem('geografiaCards')) || [];
+    const cardText = cardContainer.children[index].querySelector('h2').innerText;
+
+    cards[index] = cardText;
+    localStorage.setItem('geografiaCards', JSON.stringify(cards));
+  }
+
+  function deleteCard(event, index) {
+    event.stopPropagation();
+    const cards = JSON.parse(localStorage.getItem('geografiaCards')) || [];
+    cards.splice(index, 1);
+    localStorage.setItem('geografiaCards', JSON.stringify(cards));
+    loadCards();
+  }
+
+  function openNotes(index) {
+    window.open(`notas.html?index=${index}`, '_blank');
+  }
+</script>
+</body>
+</html>

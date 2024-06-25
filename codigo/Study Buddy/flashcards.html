@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Flashcards de Estudo Agrupados</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!-- Adicionando FontAwesome para o ícone -->
+<link rel="stylesheet" href="flashcards.css">
+</head>
+<body>
+<div id="group-container"></div>
+<button class="action-button" onclick="createGroup()">+ Criar Grupo</button>
+
+<!-- Ícone de interrogação para ajuda -->
+<button class="help-button" onclick="toggleHelpModal()"><i class="fas fa-question"></i></button>
+<button class="action-button" onclick="viewFlashcards()">Ver Flashcards</button>
+
+
+<!-- Modal para criar ou editar grupo -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <input type="text" id="group-name" placeholder="Nome do Grupo">
+        <button onclick="addGroup()">Adicionar Grupo</button>
+    </div>
+</div>
+
+<!-- Modal de ajuda -->
+<div id="help-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="toggleHelpModal()">&times;</span>
+        <h2>Ajuda sobre a Página</h2>
+        <p>Esta página permite criar grupos de flashcards para estudo. Você pode adicionar, editar ou excluir grupos e flashcards. Clique em '+ Criar Grupo' para começar.</p>
+    </div>
+</div>
+
+<!-- Modal de Confirmação -->
+<div id="confirm-modal" class="modal">
+    <div class="modal-content">
+        <h2>Confirmação</h2>
+        <p id="confirm-message"></p>
+        <button onclick="confirmYes()">Sim</button>
+        <button onclick="confirmNo()">Não</button>
+    </div>
+</div>
+
+
+<script src="flashcards.js"></script>
+</body>
+</html>

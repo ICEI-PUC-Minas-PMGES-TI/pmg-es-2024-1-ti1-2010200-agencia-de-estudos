@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Estudos</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" onclick="toggleMenu()">Menu</div>
+        <div class="logo">
+            <img src="logo.png" alt="Logo do site">
+        </div>
+        <div class="login">
+            <a href="login.html">Entrar</a>
+            <span>ou</span>
+            <a href="cadastro.html">Cadastrar</a>
+        </div>
+    </header>
+    <nav id="menu" class="menu">
+        <a href="#quem-somos">Quem Somos</a>
+        <a href="#o-que-oferecemos">O Que Oferecemos</a>
+    </nav>
+    <main>
+        <section class="benefits">
+            <h1>Organize seus Estudos com Facilidade</h1>
+            <p>Descubra os benefícios de manter uma agenda de estudos:</p>
+            <ul>
+                <li>Melhore sua produtividade</li>
+                <li>Gerencie seu tempo</li>
+                <li>Acompanhe seu progresso</li>
+                <li>Reduza o estresse</li>
+            </ul>
+        </section>
+        <section class="central-image">
+            <img src="estudos.png" alt="Imagem central ilustrativa">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Agenda de Estudos. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            if (menu.classList.contains('active')) {
+                menu.classList.remove('active');
+            } else {
+                menu.classList.add('active');
+            }
+        }
+
+        // Verifica se o usuário está logado
+        document.addEventListener('DOMContentLoaded', function() {
+            const user = localStorage.getItem('loggedInUser');
+            if (user) {
+                // Redireciona para a página de conteúdo principal se estiver logado
+                window.location.href = 'main.html';
+            }
+        });
+    </script>
+</body>
+</html>

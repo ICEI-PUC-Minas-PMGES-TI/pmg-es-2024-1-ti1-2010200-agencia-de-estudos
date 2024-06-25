@@ -1,0 +1,219 @@
+/* Estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('fundocadastro.png') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(0px); /* Adiciona desfoque ao fundo */
+    -webkit-filter: blur(0px);
+    z-index: -1;
+}
+
+/* Container do formulário */
+.form-container {
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco semitransparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    z-index: 1;
+    overflow-y: auto; /* Permite rolagem vertical */
+    max-height: 90vh; /* Limita a altura máxima do formulário */
+}
+
+/* Título do formulário */
+.form-container h1 {
+    text-align: center;
+    color: #6200ea;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos campos do formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6200ea;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo dos botões */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    background-color: #6200ea;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: #5300d3;
+}
+
+button[type="button"] {
+    background-color: #6200ea;
+    color: #fff;
+}
+
+button[type="button"]:hover {
+    background-color: #5300d3;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .form-container {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container {
+        width: 90%;
+    }
+}
+
+/* Estilos existentes */
+
+/* Adicione os novos estilos no final do arquivo cadastro.css */
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 10px;
+    }
+
+    form {
+        font-size: 14px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-group label,
+    .form-group input,
+    .form-group select {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .form-container {
+        padding: 5px;
+    }
+
+    form {
+        font-size: 12px;
+    }
+
+    .form-group {
+        margin-bottom: 8px;
+    }
+
+    .form-group label,
+    .form-group input,
+    .form-group select {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+/* Estilo do Header */
+header {
+    background-color: #6200ea; /* Cor de fundo do header */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+    width: 100%;
+    position: fixed; /* Adiciona o header fixo no topo */
+    top: 0;
+    left: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+    width: 100%;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container .logo {
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+    margin-left: 10px; /* Adiciona espaço entre o texto e a logo */
+}
+
+/* Estilo do Formulário */
+body {
+    background-image: url('fundocadastro.png'); /* Altere o caminho para a sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 60px; /* Espaço para o header fixo */
+    overflow-y: auto; /* Adiciona a capacidade de rolagem vertical */
+}
+
+.form-container {
+    background: #ffffffe6; /* Fundo branco semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px; /* Adiciona um espaço entre o header e o conteúdo */
+}

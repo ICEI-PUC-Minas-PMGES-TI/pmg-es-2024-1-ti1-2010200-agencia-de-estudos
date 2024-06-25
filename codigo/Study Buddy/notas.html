@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notas</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    background-color: #6F08BB; 
+    color: white; 
+    text-align: center; 
+    padding: 2px 0; 
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+
+  textarea {
+    width: 80%;
+    height: 300px;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6F08BB;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #660066;
+  }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Study Buddy</h1>
+</div>
+<div class="container">
+  <textarea id="notesArea" placeholder="Escreva suas notas aqui..."></textarea>
+  <button onclick="saveNotes()">Salvar Notas</button>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const params = new URLSearchParams(window.location.search);
+    const cardIndex = params.get('index');
+    const notes = localStorage.getItem('notes_' + cardIndex) || '';
+    document.getElementById('notesArea').value = notes;
+  });
+
+  function saveNotes() {
+    const params = new URLSearchParams(window.location.search);
+    const cardIndex = params.get('index');
+    const notes = document.getElementById('notesArea').value;
+    localStorage.setItem('notes_' + cardIndex, notes);
+    alert('Notas salvas!');
+  }
+</script>
+</body>
+</html>

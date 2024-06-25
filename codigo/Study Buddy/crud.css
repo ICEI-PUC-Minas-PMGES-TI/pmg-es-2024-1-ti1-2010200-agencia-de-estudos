@@ -1,0 +1,291 @@
+/* Estilo do Header */
+header {
+    background-color: #6200ea; /* Cor de fundo do header */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre o texto e a logo */
+    align-items: center;
+    width: 100%;
+    position: fixed; /* Adiciona o header fixo no topo */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+}
+
+.header-container {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+    width: 100%;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container .logo {
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+    margin-left: 10px; /* Adiciona espaço entre o texto e a logo */
+}
+
+/* Estilo do CRUD */
+body {
+    background-image: url('fundocadastro.png'); /* Altere o caminho para a sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    padding-top: 70px; /* Espaço para o header fixo */
+}
+
+.crud-container {
+    background: #ffffffe6; /* Fundo branco semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.crud-container h1 {
+    text-align: center;
+    color: #6200ea; /* Cor do texto */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    word-wrap: break-word;
+    white-space: normal;
+    color: #6200ea; /* Cor do texto */
+}
+
+table th {
+    background-color: #6200ea;
+    color: white;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+button {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    color: white; /* Cor do texto do botão */
+}
+
+button.edit-button {
+    background-color: #6200ea; /* Cor de fundo do botão de editar */
+    min-width: 50px;
+}
+
+button.delete-button {
+    background-color: #FF3131; /* Cor de fundo do botão de excluir mais claro */
+    min-width: 50px;
+}
+
+.edit-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.edit-popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+.edit-popup-content h2 {
+    margin-top: 0;
+    text-align: center; /* Centralizar o título */
+    color: #6200ea; /* Cor do texto */
+}
+
+.edit-popup-content .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-popup-content .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6200ea; /* Cor do texto */
+}
+
+.edit-popup-content .form-group input,
+.edit-popup-content .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    color: #6200ea; /* Cor do texto */
+}
+
+.edit-popup-content button {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+button.save-button,
+button.save-button:disabled {
+    background-color: #6200ea; /* Cor roxa para o botão Salvar */
+    color: white; /* Cor do texto do botão */
+}
+
+button.cancel-button,
+button.cancel-button:disabled {
+    background-color: #6200ea; /* Cor roxa para o botão Cancelar */
+    color: white; /* Cor do texto do botão */
+}
+
+/* Estilos responsivos */
+
+@media (max-width: 600px) {
+    .crud-container {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    /* Torna a tabela responsiva */
+    .crud-container table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .crud-container table thead {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .crud-container table tbody {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .crud-container table th, 
+    .crud-container table td {
+        display: table-cell;
+    }
+
+    .edit-popup-content {
+        padding: 10px;
+    }
+
+    .edit-popup-content .form-group input,
+    .edit-popup-content .form-group select {
+        padding: 6px;
+    }
+
+    .edit-popup-content button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .crud-container {
+        width: 95%;
+        padding: 5px;
+    }
+
+    .edit-popup-content {
+        width: 100%;
+        max-width: none;
+        padding: 10px;
+    }
+
+    .edit-popup-content .form-group label,
+    .edit-popup-content .form-group input,
+    .edit-popup-content .form-group select {
+        font-size: 12px;
+    }
+
+    .edit-popup-content button {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    /* Ajustes adicionais para a tabela em telas muito pequenas */
+    .crud-container table {
+        font-size: 10px;
+    }
+
+    .crud-container table th, 
+    .crud-container table td {
+        padding: 4px;
+    }
+
+    button {
+        padding: 4px 4px;
+        font-size: 10px;
+    }
+
+    button.edit-button, button.delete-button {
+        min-width: 45px;
+    }
+}
+
+/* Ajustes adicionais para alinhamento dos botões */
+td.actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+td.actions button {
+    margin: 2px 0;
+    flex: 1;
+    text-align: center;
+}
