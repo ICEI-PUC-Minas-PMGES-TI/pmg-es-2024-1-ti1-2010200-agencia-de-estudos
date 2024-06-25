@@ -1,0 +1,264 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: center;
+  min-height: 100vh;
+  background:#9B59B6;
+}
+.wrapper{
+  width: 450px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+.wrapper header{
+  display: flex;
+  align-items: center;
+  padding: 25px 30px 10px;
+  justify-content: space-between;
+}
+header .icons{
+  display: flex;
+}
+header .icons span{
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  color: #878787;
+  text-align: center;
+  line-height: 38px;
+  font-size: 1.9rem;
+  user-select: none;
+  border-radius: 50%;
+}
+.icons span:last-child{
+  margin-right: -10px;
+}
+header .icons span:hover{
+  background: #f2f2f2;
+}
+header .current-date{
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+.calendar{
+  padding: 20px;
+}
+.calendar ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+.calendar .days{
+  margin-bottom: 20px;
+}
+.calendar li{
+  color: #333;
+  width: calc(100% / 7);
+  font-size: 1.07rem;
+}
+.calendar .weeks li{
+  font-weight: 500;
+  cursor: default;
+}
+.calendar .days li{
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+.days li.inactive{
+  color: #aaa;
+}
+.days li.active{
+  color: #fff;
+}
+.days li::before{
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.days li.active::before{
+  background: #9B59B6;
+}
+.days li:not(.active):hover::before{
+  background: #f2f2f2;
+}
+
+.days li.task::before{
+  background: #f0c674;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.days li.task{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.days li.task:hover::before{
+  background: #f0c674;
+}
+
+.days li.done::before{
+  background: #86c646;
+}
+
+.days li.done:hover::before{
+  background: #86c646;
+}
+
+.days li.done{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.task-container{
+  border-radius: 10px;
+  display: flex; 
+  background-color: white; 
+  padding: 20px; 
+  flex-direction: column; 
+  height: 497px; 
+  width: 400px;
+}
+
+.task{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input[type="text"], input[type="date"], button {
+  border: 2px solid #007BFF; 
+  border-radius: 5px; 
+  padding: 10px; 
+  height: 40px;
+  outline: none; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  font-size: 16px;
+}
+button {
+  height: 25px;
+  background-color: #007BFF; 
+  color: white; 
+  cursor: pointer; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  background-color: #0056b3; 
+}
+.material-symbols-rounded {
+  cursor: pointer;
+  font-variant: normal;
+  font-feature-settings: 'liga';
+}
+
+.material-symbols-rounded:hover {
+  transform: scale(1.1);
+}
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.task-container{
+  margin-left: 20px;
+}
+
+.lista{
+  flex-direction: column;
+  display: flex;
+  width: 100%; ; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.modal-edit{
+  flex-direction: column;
+  display: flex;
+  width: 100%; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.task-list{
+  display: flex; 
+  flex-direction: column; 
+  height: max-content; 
+  overflow-y: scroll; 
+  margin-top: 20px;
+  overflow-x: hidden;
+}
+
+.task p {
+  margin: 0;
+  flex-wrap: nowrap;  
+  word-break: break-all; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+  width: 65%;
+}
+
+.task{
+  height: 31px;
+}
+
+
+.box{
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px;
+}
+
+@media (max-width: 905px){
+  .body{
+      display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100vw;
+  }
+  .task-container{
+    margin-top: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .wrapper{
+    margin-top: 20px;
+    width: 90%;
+  }
+  .weeks li{
+    font-size: 0.9rem;
+  }
+
+}
