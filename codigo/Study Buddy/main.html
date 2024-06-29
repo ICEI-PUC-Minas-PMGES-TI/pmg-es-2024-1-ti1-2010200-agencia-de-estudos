@@ -1,30 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Buddy</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Study Buddy Home</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <h1 class="logo">Study Buddy</h1>
-            <nav class="menu">
-                <a href="#" class="menu-item active"><i class="fas fa-home"></i> Início</a>
-                <a href="cronograma.html" class="menu-item"><i class="fas fa-calendar-alt"></i> Cronograma</a>
-                <a href="materias.html" class="menu-item"><i class="fas fa-book"></i> Matérias</a>
-                <a href="flashcards.html" class="menu-item"><i class="fas fa-clipboard"></i> Flashcards</a>
-            </nav>
-        </div>
-        <div class="main-content">
-            <div class="content-box">
-                <div id="myChart" style="width: 100%; height: 100%;"></div> <!-- Div para o gráfico -->
-            </div>
-        </div>
+    <div class="sidebar">
+        <h1>Study Buddy</h1>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Início</a></li>
+            <li><a href="cronograma.html"><i class="fas fa-calendar"></i> Cronograma</a></li>
+            <li><a href="materias.html"><i class="fas fa-book"></i> Matérias</a></li>
+            <li><a href="flashcards.html"><i class="fas fa-clipboard"></i> Flashcards</a></li>
+            <li><a href="#" onclick="showProfile()"><i class="fas fa-user"></i> Perfil</a></li>
+        </ul>
     </div>
-    <script src="https://www.gstatic.com/charts/loader.js"></script> <!-- Google Charts Loader -->
-    <script src="main.js"></script> <!-- Arquivo JavaScript -->
+    <main>
+        <section class="profile" id="profile-details-section" style="display: none;">
+            <h1>Seu Perfil</h1>
+            <div class="profile-picture">
+                <img src="default-profile.png" alt="Foto de Perfil" id="profile-img">
+                <input type="file" id="upload-photo" hidden>
+                <button onclick="document.getElementById('upload-photo').click()">Adicionar Foto de Perfil</button>
+            </div>
+            <div class="profile-details">
+                <h3>Detalhes do Usuário</h3>
+                <form id="profile-form">
+                    <label for="username">Nome de Usuário:</label>
+                    <input type="text" id="username" name="username">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password">
+                    <button type="submit">Salvar Mudanças</button>
+                </form>
+                <button id="logout-btn">Sair do Perfil</button>
+            </div>
+        </section>
+        <section class="home-content">
+            <h1>Bem-vindo ao Study Buddy</h1>
+            <p>Aqui você pode gerenciar seu cronograma, matérias e flashcards para otimizar seus estudos.</p>
+        </section>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>

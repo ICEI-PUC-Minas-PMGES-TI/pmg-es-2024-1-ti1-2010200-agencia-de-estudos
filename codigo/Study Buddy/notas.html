@@ -51,9 +51,27 @@
   button:hover {
     background-color: #660066;
   }
+
+  .back-button {
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+
+  .back-button:hover {
+    background-color: #5300d3;
+  }
 </style>
 </head>
 <body>
+<button onclick="goBack()" class="back-button">Voltar</button>
 <div class="header">
   <h1>Study Buddy</h1>
 </div>
@@ -64,18 +82,36 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', (event) => {
+    const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+    if (!loggedInUser) {
+      alert('Você precisa estar logado para acessar esta página.');
+      window.location.href = 'login.html';
+      return;
+    }
+
     const params = new URLSearchParams(window.location.search);
     const cardIndex = params.get('index');
-    const notes = localStorage.getItem('notes_' + cardIndex) || '';
+    const notesKey = `notes_${loggedInUser.email}_${cardIndex}`;
+    const notes = localStorage.getItem(notesKey) || '';
     document.getElementById('notesArea').value = notes;
   });
 
   function saveNotes() {
+    const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
     const params = new URLSearchParams(window.location.search);
     const cardIndex = params.get('index');
+    const notesKey = `notes_${loggedInUser.email}_${cardIndex}`;
     const notes = document.getElementById('notesArea').value;
-    localStorage.setItem('notes_' + cardIndex, notes);
+    localStorage.setItem(notesKey, notes);
     alert('Notas salvas!');
+  }
+
+  function goBack() {
+    if (document.referrer) {
+      window.history.back();
+    } else {
+      window.location.href = 'materias.html';
+    }
   }
 </script>
 </body>

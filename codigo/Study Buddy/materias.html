@@ -1,73 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Subject Cards</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matérias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-  .header {
-    background-color: #6F08BB; 
-    color: white; 
-    text-align: center; 
-    padding: 2px 0; 
-    width: 100%;
-  }
+        .header {
+            background-color: #6F08BB; 
+            color: white; 
+            text-align: center; 
+            padding: 2px 0; 
+            width: 100%;
+        }
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
-    max-width: 800px;
-  }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+            max-width: 800px;
+        }
 
-  .card {
-    background-color: #f2f2f2; 
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    width: 200px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: pointer;
-  }
+        .card {
+            background-color: #f2f2f2; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 200px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            cursor: pointer;
+        }
 
-  h2 {
-    margin: 0;
-  }
-</style>
-<script>
-  function openSubject(subject) {
-    window.open(subject + ".html", "_blank");
-  }
-</script>
+        .edit-btn, .delete-btn {
+            position: absolute;
+            top: 5px;
+            background-color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .edit-btn {
+            right: 35px;
+        }
+
+        .delete-btn {
+            right: 5px;
+        }
+
+        #newCardInput {
+            margin: 20px 0;
+        }
+        
+        .back-button {
+            padding: 10px 20px;
+            background-color: #6200ea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+        }
+
+        .back-button:hover {
+            background-color: #5300d3;
+        }
+    </style>
 </head>
 <body>
-<div class="header">
-  <h1>Study Buddy</h1>
-</div>
-<div class="container">
-  <div class="card" onclick="openSubject('matematica')"><h2>Matemática</h2></div>
-  <div class="card" onclick="openSubject('portugues')"><h2>Português</h2></div>
-  <div class="card" onclick="openSubject('geografia')"><h2>Geografia</h2></div>
-  <div class="card" onclick="openSubject('historia')"><h2>História</h2></div>
-  <div class="card" onclick="openSubject('biologia')"><h2>Biologia</h2></div>
-  <div class="card" onclick="openSubject('filosofia')"><h2>Filosofia</h2></div>
-  <div class="card" onclick="openSubject('quimica')"><h2>Química</h2></div>
-  <div class="card" onclick="openSubject('fisica')"><h2>Física</h2></div>
-  <div class="card" onclick="openSubject('ingles')"><h2>Inglês</h2></div>
-</div>
+    <button onclick="history.back()" class="back-button">Voltar</button>
+    <div class="header">
+        <h1>Study Buddy</h1>
+    </div>
+    <div class="container" id="cardContainer"></div>
+    <input type="text" id="newCardInput" placeholder="Escreva aqui..." />
+    <button onclick="addCard()">Adicionar Card</button>
+    <script src="materias.js"></script>
 </body>
 </html>

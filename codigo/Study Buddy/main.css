@@ -1,110 +1,143 @@
-body, html {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    height: 100%; /* Garante que a altura total seja preenchida */
-}
-
-.container {
+    background-color: #f4f4f4;
+    color: #333;
     display: flex;
-    height: 100vh; /* Altura total da viewport */
 }
 
 .sidebar {
-    width: 250px; /* Ajustado para acomodar ícones */
     background-color: #a875ff;
-    color: white;
+    width: 200px;
+    height: 100vh;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
 }
 
-.logo {
-    font-size: 24px;
-    margin-bottom: 50px;
+.sidebar h1 {
+    color: white;
+    margin-bottom: 20px;
 }
 
-.menu {
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
     width: 100%;
 }
 
-.menu-item {
-    display: flex;
-    align-items: center;
+.sidebar ul li {
+    width: 100%;
+}
+
+.sidebar ul li a {
     color: white;
-    padding: 10px;
     text-decoration: none;
-    transition: background-color 0.3s;
-    width: 100%; /* Garante que o item ocupe todo o espaço horizontal */
-}
-
-.menu-item i {
-    margin-right: 10px; /* Espaço entre o ícone e o texto */
-}
-
-.menu-item:hover, .menu-item.active {
-    background-color: #9658d6;
-}
-
-.main-content {
-    flex-grow: 1;
-    background-color: #f3f2f8;
+    padding: 10px 20px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sidebar ul li a:hover {
+    background-color: #6F08BB;
+}
+
+.sidebar ul li a i {
+    margin-right: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.content-box {
-    width: 80%;
-    height: 80%;
-    border: 2px dashed #ccc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.profile-picture {
+    text-align: center;
+    margin: 20px 0;
 }
 
-/* Media Queries para Responsividade */
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-details {
+    margin-top: 20px;
+}
+
+.profile-details label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6200ea;
+}
+
+.profile-details input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.profile-details button {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.profile-details button:hover {
+    background-color: #5300d3;
+}
+
+.home-content h1 {
+    font-size: 2.5em;
+    color: #6F08BB;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    color: #555;
+}
+
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
     .sidebar {
         width: 100%;
         height: auto;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
     }
 
-    .logo {
-        display: none; /* Opcional: remover logo em telas pequenas */
+    .sidebar ul {
+        display: flex;
     }
 
-    .menu-item {
-        justify-content: center;
-        flex-grow: 1;
-        text-align: center;
+    .sidebar ul li a {
+        padding: 10px;
     }
 
-    .main-content {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .content-box {
-        width: 100%;
-        height: auto;
-        max-height: 300px; /* Ajustar conforme necessário */
-    }
-}
-
-@media (max-width: 480px) {
-    .menu-item {
-        padding: 8px 0; /* Reduzir padding para telas muito pequenas */
-    }
-
-    .menu-item i {
-        font-size: 12px; /* Ajustar tamanho dos ícones */
+    main {
+        padding: 10px;
     }
 }
