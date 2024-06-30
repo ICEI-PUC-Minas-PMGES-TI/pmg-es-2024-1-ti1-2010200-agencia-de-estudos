@@ -1,65 +1,19 @@
-<<<<<<< HEAD
-cff-version: 1.0.1
-message: Please cite this software using these metadata.
-title: 
-authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-keywords:
-  - 
-  - 
-repository-code: 
-license: CC-BY-4.0
-version: 1.0.0
-date-released: 2022-07-14
-=======
-cff-version: 1.0.1
-message: Please cite this software using these metadata.
-title: 
-authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-keywords:
-  - 
-  - 
-repository-code: 
-license: CC-BY-4.0
-version: 1.0.0
-date-released: 2022-07-14
->>>>>>> 576e4073eb686b7caee5801aac8f95491eb4d605
+# Agenda de estudos 
+
+Existem muitos alunos e estudantes, tanto universitários quanto do ensino médio que mostram uma grande dificuldade ao conseguir conciliar suas rotinas de estudo com sua vida pessoal. Nosso propósito, é conseguir ajudar esses estudantes a organizar suas rotinas de estudo e alcançar seus
+objetivos acadêmicos.
+
+## Alunos integrantes da equipe
+
+* Iago Magno Salvino
+* Thiago Costa Soares
+* Kaiky Keven de Oliveira Castro
+* Victor Sverberi Maia
+* Luis Gustavo Silva Oliveira
+
+
+## Professores responsáveis
+
+* Michelle Hanne Soares de Andrade
+* João Paulo Carneiro Aramuni
+
