@@ -96,7 +96,7 @@ RNF 2: Suportar telas de computadores
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/671a2696-bf90-4647-aa27-98a96a749955)
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/025cba67-bc2a-4712-b298-51b1af224d99)
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/5b447675-a6e5-46f2-b5f6-0ba780e18188)
-![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/33c66620-b664-4856-9c6d-6a62862fd261)
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/0c86ab12-82d4-4263-a5ec-cd0421af4e3a)
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/2a70a730-1f4d-4038-a14f-039fd13e4530)
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/f7bb932d-b43c-4ad2-beab-26b45649609e)
 ![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-agenda-de-estudos/assets/161332484/ce320247-9aef-4bfc-b319-51475a7cc9d0)
