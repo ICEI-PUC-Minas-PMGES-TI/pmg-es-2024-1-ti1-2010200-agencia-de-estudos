@@ -32,7 +32,7 @@ O objetivo principal do nosso projeto é ajudar nossos usuários a gerenciar sua
 
 ## Justificativa
 
-Sabendo que os estudos sao o pilar da nossa sociedade, nosso projeto procura facilitar a vida de quem procura esse sucesso academico. E  Ter uma rotina de estudos prática e organizada é crucial porque ajuda a maximizar a eficiência e o rendimento acadêmico. Sem tais metodos, o usuario pode aprender de forma errada e isso afetar seu futuro profissional, ou ate mesmo desistir de seus objetivos.
+Sabendo que os estudos são o pilar da nossa sociedade, nosso projeto procura facilitar a vida de quem procura esse sucesso acadêmico. E  ter uma rotina de estudos prática e organizada é crucial, porque ajuda a maximizar a eficiência e o rendimento acadêmico. Sem tais métodos, o usuário pode aprender de forma errada e isso afetar seu futuro profissional, ou até mesmo desistir de seus objetivos.
 
 
 
