@@ -1,19 +1,28 @@
-# Agenda de estudos 
-
-Existem muitos alunos e estudantes, tanto universitários quanto do ensino médio que mostram uma grande dificuldade ao conseguir conciliar suas rotinas de estudo com sua vida pessoal. Nosso propósito, é conseguir ajudar esses estudantes a organizar suas rotinas de estudo e alcançar seus
-objetivos acadêmicos.
-
-## Alunos integrantes da equipe
-
-* Iago Magno Salvino
-* Thiago Costa Soares
-* Kaiky Keven de Oliveira Castro
-* Victor Sverberi Maia
-* Luis Gustavo Silva Oliveira
-
-
-## Professores responsáveis
-
-* Michelle Hanne Soares de Andrade
-* João Paulo Carneiro Aramuni
-
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Study Buddy
+authors:
+  - family-names: Costa
+    given-names: Thiago
+  - family-names: Maia
+    given-names: Victor
+  - family-names: Gustavo
+    given-names: Luiz
+  - family-names: Keven
+    given-names: Kaiky
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Hanne
+    given-names: Michelle
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Aramuni
+    given-names: João
+keywords:
+  - Estudo
+  - Foco
+  - Disciplina 
+repository-code: https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-gas-finder 
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-06-30
